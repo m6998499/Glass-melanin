@@ -5,6 +5,10 @@ A beautiful, modern landing page with a crystal-glass aesthetic and Pan-African 
 ![Theme: Crystal Glass with Pan-African colors](https://img.shields.io/badge/Theme-Crystal%20Glass-blue)
 ![Built with React](https://img.shields.io/badge/Built%20with-React-61DAFB)
 
+> **📚 New here?** Check out the [QUICKSTART.md](./QUICKSTART.md) for a 2-minute setup guide!
+> 
+> **📖 All Documentation**: [DOCUMENTATION.md](./DOCUMENTATION.md) | [QUICKSTART.md](./QUICKSTART.md) | [DEPLOYMENT.md](./DEPLOYMENT.md) | [CONTRIBUTING.md](./CONTRIBUTING.md)
+
 ## ✨ Features
 
 - **Crystal-glass aesthetic** with glassmorphism effects
