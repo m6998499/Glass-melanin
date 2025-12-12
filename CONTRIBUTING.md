@@ -78,11 +78,11 @@ npm run lint
 ```
 Glass-melanin/
 ├── src/
-│   ├── main.jsx              # Entry point
-│   └── index.css             # Global styles
-├── melanin_unity_crystal_glass_website.jsx.js  # Main component
-├── public/                   # Static assets
-└── [config files]            # Vite, Tailwind, etc.
+│   ├── App.jsx                # Main component
+│   ├── main.jsx               # Entry point
+│   └── index.css              # Global styles
+├── public/                    # Static assets
+└── [config files]             # Vite, Tailwind, etc.
 ```
 
 ## 🎨 Design Principles

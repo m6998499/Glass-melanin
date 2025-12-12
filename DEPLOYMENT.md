@@ -49,7 +49,7 @@ npm run dev
 
 ### Making Changes
 
-1. Edit `melanin_unity_crystal_glass_website.jsx.js`
+1. Edit `src/App.jsx`
 2. Save the file
 3. See changes instantly in your browser!
 
@@ -107,7 +107,7 @@ npm run preview  # Preview production build locally
 ## 🎨 Quick Customization
 
 ### Change Brand Name
-**File**: `melanin_unity_crystal_glass_website.jsx.js`  
+**File**: `src/App.jsx`  
 **Line**: 57  
 ```jsx
 <div className="text-sm tracking-[0.28em] text-white/60">YOUR BRAND</div>

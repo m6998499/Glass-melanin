@@ -106,20 +106,26 @@ npm run preview
 
 ```
 Glass-melanin/
-├── melanin_unity_crystal_glass_website.jsx.js  # Main React component
-├── package.json                                 # Dependencies & scripts
-├── index.html                                   # HTML entry point
-├── vite.config.js                              # Vite configuration
-├── tailwind.config.js                          # Tailwind CSS config
-├── postcss.config.js                           # PostCSS config
-└── README.md                                    # This file
+├── src/
+│   ├── App.jsx                   # Main React component
+│   ├── main.jsx                  # Application entry point
+│   └── index.css                 # Global styles with Tailwind
+├── public/
+│   └── vite.svg                  # Favicon
+├── package.json                  # Dependencies & scripts
+├── index.html                    # HTML template
+├── vite.config.js               # Vite configuration
+├── tailwind.config.js           # Tailwind CSS config
+├── postcss.config.js            # PostCSS config
+├── README.md                    # This file (comprehensive guide)
+└── DEPLOYMENT.md                # Quick deployment guide
 ```
 
 ## 🎨 Customization Guide
 
 ### Update Content
 
-Edit `melanin_unity_crystal_glass_website.jsx.js`:
+Edit `src/App.jsx`:
 
 - **Brand name**: Line 57 - Change "MELANIN UNITY"
 - **Hero title**: Lines 111-114 - Update main heading
@@ -131,7 +137,7 @@ Edit `melanin_unity_crystal_glass_website.jsx.js`:
 
 The site uses Pan-African colors by default. To customize:
 
-1. Open `melanin_unity_crystal_glass_website.jsx.js`
+1. Open `src/App.jsx`
 2. Search for color classes like `from-red-500`, `via-yellow-400`, `to-green-500`
 3. Replace with your preferred Tailwind color classes
 
