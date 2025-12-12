@@ -40,6 +40,8 @@ const Pill = ({ children }) => (
   </span>
 );
 
+const currentYear = new Date().getFullYear();
+
 export default function MelaninUnityCrystalSite() {
   return (
     <div className="min-h-screen bg-[#07070a] text-white">
@@ -283,7 +285,7 @@ export default function MelaninUnityCrystalSite() {
               </div>
             </div>
             <div className="mt-6 border-t border-white/10 pt-4 text-xs text-white/50">
-              © {new Date().getFullYear()} Melanin Unity. All rights reserved.
+              © {currentYear} Melanin Unity. All rights reserved.
             </div>
           </GlassCard>
         </div>
